@@ -1,12 +1,13 @@
 {
-  "proxy" : "http://localhost:4000/",
+  "proxy": "http://localhost:4000/",
   "name": "paytm-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
